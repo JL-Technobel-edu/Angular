@@ -1,0 +1,135 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstname": "Jawad",
+      "lastname": "Lakrary",
+      "address": "Rue des Tawes",
+      "num": 149,
+      "locality": "Liège",
+      "email": "jawad@user.be",
+      "hash": "1234",
+      "usertypeId":1,
+      "createdAt":"02/09/2022"
+    },
+    {
+        "id": 2,
+        "firstname": "Thomas",
+        "lastname": "Rossie",
+        "address": "Rue des pétales",
+        "num": 149,
+        "locality": "Liège",
+        "email": "thomas@rossie.be",
+        "hash": "1234",
+        "usertypeId":2,
+        "createdAt":"12/09/2021"
+      }
+      ,
+    {
+        "id": 3,
+        "firstname": "Dorian",
+        "lastname": "Vanhoutte",
+        "address": "Au palais de la fleur",
+        "num": 149,
+        "locality": "Liège",
+        "email": "dorian@vanhoutte.be",
+        "hash": "1234",
+        "usertypeId":2,
+        "createdAt":"25/06/2022"
+      },
+      {
+          "id": 4,
+          "firstname": "Super",
+          "lastname": "Admin",
+          "address": "nowhere avenue",
+          "num": 149,
+          "locality": "Liège",
+          "email": "super@admin.be",
+          "hash": "1234",
+          "usertypeId":3,
+          "createdAt":"01/01/2019"
+        }
+  ],
+  "cooperatives": [
+    {
+      "id": 1,
+      "name": "La ferme Fleurie",
+      "address": "Rue des aubépines",
+      "num": 149,
+      "locality": "Liège",
+      "userId": 2,
+      "cooptypeId": 1,
+      "participants":15,
+      "createdAt":"01/01/2019"
+    },
+    {
+      "id": 2,
+      "name": "le Lys art",
+      "address": "Rue des mimosa",
+      "num": 149,
+      "locality": "Liège",
+      "userId": 3,
+      "cooptypeId": 2,
+      "participants":25,
+      "createdAt":"01/01/2019"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "cooperativeId": 1,
+      "name": "La ferme fleurie",
+      "address": "Parc de la boverie",
+      "num": 149,
+      "locality": "Liège",
+      "createdAt":"01/01/2019"
+    },
+    {
+      "id": 2,
+      "cooperativeId": 2,
+      "name": "L'odyssée du lys",
+      "address": "Parc de la citadelle",
+      "num": 149,
+      "locality": "Liège",
+      "createdAt":"01/01/2019"
+    },
+    {
+      "id": 3,
+      "name": "Le rond fleur",
+      "address": "Place Saint-Lambert",
+      "num": 149,
+      "locality": "Liège",
+      "cooperativeId": 1,
+      "createdAt":"01/01/2019"
+    }
+  ],
+  "cooptypes": [
+    {
+      "id": 1,
+      "name": "SPRL",
+      "createdAt":"01/01/2019"
+    },
+    {
+      "id": 2,
+      "name": "SARL",
+      "createdAt":"01/01/2019"
+    }
+  ],
+  "usertypes": [
+    {
+      "id": 1,
+      "name": "guest",
+      "createdAt":"01/01/2019"
+    },
+    {
+      "id": 2,
+      "name": "owner",
+      "createdAt":"01/01/2019"
+    },
+    {
+      "id": 3,
+      "name": "admin",
+      "createdAt":"01/01/2019"
+    }
+  ]
+}
